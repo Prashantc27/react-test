@@ -4,9 +4,9 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  let [counter, setCounter] = useState(5)
+  let [counter, setCounter] = useState(5) // useState 2 cheze return krta h array m 1st value and 2nd us value s related method
   const addValue = () => {
-    setCounter(counter + 1)
+    setCounter(counter + 1)  // using setCounter method hum counter value increase kr rhe h
   }
   return (
     <>
