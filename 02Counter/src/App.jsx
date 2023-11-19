@@ -8,13 +8,17 @@ function App() {
   const addValue = () => {
     setCounter(counter + 1)  // using setCounter method hum counter value increase kr rhe h
   }
+
+  const removeValue = () => {
+    setCounter(counter - 1);
+  }
   return (
     <>
      <h1>Hello</h1>
      <h2>Counter Value: {counter}</h2>
      <button onClick={addValue}>Add value</button>
      <br></br>
-     <button>Remove value</button>
+     <button onClick={removeValue}>Remove value</button>
     </>
   )
 }
